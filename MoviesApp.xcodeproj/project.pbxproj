@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C38386D0D2CFDD9F875B1BA9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3838B383FB81DCF55A48CAB /* Logger.swift */; };
 		C38389615BB4B30F73DEFB38 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383849A1FAFCC30AAD64317 /* MovieCell.swift */; };
 		D7888EBE273C4CD7001604FC /* MoviesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888EBD273C4CD7001604FC /* MoviesAppApp.swift */; };
 		D7888EC0273C4CD7001604FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888EBF273C4CD7001604FC /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		C383849A1FAFCC30AAD64317 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C3838B383FB81DCF55A48CAB /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		D7888EBA273C4CD7001604FC /* MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7888EBD273C4CD7001604FC /* MoviesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppApp.swift; sourceTree = "<group>"; };
 		D7888EBF273C4CD7001604FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				D7888EBF273C4CD7001604FC /* ContentView.swift */,
 				D7888EC1273C4CDB001604FC /* Assets.xcassets */,
 				D7888EC3273C4CDB001604FC /* Preview Content */,
+				C3838B383FB81DCF55A48CAB /* Logger.swift */,
 			);
 			path = MoviesApp;
 			sourceTree = "<group>";
@@ -206,7 +209,7 @@
 			);
 			mainGroup = D7888EB1273C4CD7001604FC;
 			packageReferences = (
-				D7C759D3273D35ED0092DB10 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D7C759D3273D35ED0092DB10 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
 			);
 			productRefGroup = D7888EBB273C4CD7001604FC /* Products */;
 			projectDirPath = "";
@@ -255,6 +258,7 @@
 				D7888EBE273C4CD7001604FC /* MoviesAppApp.swift in Sources */,
 				D7C759CC273D1CE10092DB10 /* DiscoverView.swift in Sources */,
 				C38389615BB4B30F73DEFB38 /* MovieCell.swift in Sources */,
+				C38386D0D2CFDD9F875B1BA9 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +463,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D7C759D3273D35ED0092DB10 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		D7C759D3273D35ED0092DB10 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -472,7 +476,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		D7C759D4273D35ED0092DB10 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D7C759D3273D35ED0092DB10 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = D7C759D3273D35ED0092DB10 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
